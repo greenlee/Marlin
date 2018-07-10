@@ -98,6 +98,12 @@
 
 // @section machine
 
+// select machine variation
+//#define sub_machine Ultimaker2+ext
+//#define sub_machine JMR3
+//#define sub_machine Ultimaker2+ext1.75
+//#define sub_machine duplicator6
+
 /**
  * Select the serial port on the board to use for communication with the host.
  * This allows the connection of wireless adapters (for instance) to non-default port pins.
@@ -373,9 +379,10 @@
 
   // Ultimaker
   //#define DEFAULT_Kp 22.2
- // #define DEFAULT_Ki 1.08
+  // #define DEFAULT_Ki 1.08
   //#define DEFAULT_Kd 114
-//greenlee3dmini e3d
+
+  //greenlee3dmini e3d
   #define DEFAULT_Kp 23.72
   #define DEFAULT_Ki 3.37
   #define DEFAULT_Kd 41.76
