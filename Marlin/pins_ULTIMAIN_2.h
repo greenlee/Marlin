@@ -45,8 +45,8 @@
 //
 #define X_STOP_PIN         22
 #define Y_STOP_PIN         26
-#define Z_STOP_PIN         29
-
+#define Z_STOP_PIN         69 // original value 29
+#define SERVO0_PIN         29 //bltouch
 //
 // Steppers
 //
@@ -54,9 +54,9 @@
 #define X_DIR_PIN          23
 #define X_ENABLE_PIN       27
 
-#define Y_STEP_PIN         32
-#define Y_DIR_PIN          33
-#define Y_ENABLE_PIN       31
+#define Y_STEP_PIN         49 //32
+#define Y_DIR_PIN          47 //33
+#define Y_ENABLE_PIN       48 //31
 
 #define Z_STEP_PIN         35
 #define Z_DIR_PIN          36
@@ -66,9 +66,9 @@
 #define E0_DIR_PIN         43
 #define E0_ENABLE_PIN      37
 
-#define E1_STEP_PIN        49
-#define E1_DIR_PIN         47
-#define E1_ENABLE_PIN      48
+//#define E1_STEP_PIN        49
+//#define E1_DIR_PIN         47
+//#define E1_ENABLE_PIN      48
 
 #define MOTOR_CURRENT_PWM_XY_PIN 44
 #define MOTOR_CURRENT_PWM_Z_PIN 45
@@ -77,7 +77,7 @@
 #ifndef MOTOR_CURRENT_PWM_RANGE
   #define MOTOR_CURRENT_PWM_RANGE 2000
 #endif
-#define DEFAULT_PWM_MOTOR_CURRENT  {1300, 1300, 1250}
+#define DEFAULT_PWM_MOTOR_CURRENT  {1200, 1200, 700}
 
 //
 // Temperature Sensors
