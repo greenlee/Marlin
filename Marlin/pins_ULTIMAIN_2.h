@@ -45,8 +45,8 @@
 //
 #define X_STOP_PIN         22
 #define Y_STOP_PIN         26
-#define Z_STOP_PIN         69 // original value 29
-#define SERVO0_PIN         29 //bltouch
+#define Z_STOP_PIN         29 // original value 29
+//#define SERVO0_PIN         29 //bltouch
 //
 // Steppers
 //
